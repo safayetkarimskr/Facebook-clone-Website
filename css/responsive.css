@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1251px){
+    .navbar-brand {
+        margin-right: 0.2rem;
+    }
+    .header-logo {
+        width: 36px;
+    }
+    .header-search-icon {
+        left: 65px;
+        top: 15px;
+    }
+    .header-btn li a {
+        padding: 9px;
+        font-size: 21px;
+    }
+    .header-profile-btn ul li a {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+        padding: 7px;
+    }
+    .header-profile {
+        padding: 5px;
+        top: 3px;
+        transition: .2s;
+    }
+}
+@media only screen and (max-width: 1230px){
+    .create-room .profile-pic img:nth-child(8){
+        display: none;
+    }    
+    .create-post ul li a span {
+        font-size: 16px;
+    }
+    .create-post ul li a h6 {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1159px){
+    .header-profile span {
+        font-size: 12px;
+    }
+    .header-profile-btn ul li a {
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+        padding: 5px;
+    }
+}

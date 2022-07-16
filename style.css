@@ -1,0 +1,431 @@
+*{
+    list-style: none;
+    font-family: 'Work Sans', sans-serif;
+    outline: none;
+}
+body{
+    background: #f0f2f5;
+}
+i.fad.fa-thumbs-up {
+    color: #139cf8;
+}
+i.fas.fa-heart-circle {
+    color: #fa5772;
+}
+i.fas.fa-grin-squint {
+    color: #746848;
+}
+i.fas.fa-angry {
+    color: #ff0000;
+}
+i.fas.fa-sad-tear {
+    color: saddlebrown;
+}
+i.fas.fa-grin-hearts {
+    color: #fa5772;
+}
+/* ------ Header Start ------ */
+
+header .container-fluid{
+    padding-top: 10px;
+    background: #fff;
+}
+.header-logo{
+    width: 40px;
+}
+.header-search {
+    display: flex;
+}
+.header-search-icon {
+    padding: 10px;
+    color: #65676b;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    left: 82px;
+    top: 16px;
+    font-weight: 400;
+}
+.header-search-input{
+    background: #f0f2f5;
+    padding-left: 35px;
+    outline: none;
+    position: relative;
+    left: 10px;
+    border: none;
+    border-radius: 50px;
+}
+.header-btn {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.header-btn li{
+    display: inline-block;
+}
+.header-btn li:nth-child(1){
+    color: #1877f2;
+    border-bottom: 2px solid #1877f2;
+}
+.header-btn li:nth-child(1) a{
+    color: #1877f2;
+}
+
+.header-btn li a {
+    padding: 10px;
+    display: block;
+    font-size: 24px;
+    color: #65676b;
+}
+.header-profile{
+    border-radius: 50px;
+    padding: 5px;
+    position: relative;
+    top: 5px;
+    transition: .2s;
+}
+.header-profile img{
+    width: 30%;
+    border-radius: 50%;
+}
+.header-profile span{
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+header .row .row .col-md-4, header .row .row .col-md-8{
+    padding: 0;
+    margin: 0;
+}
+.header-profile-btn {
+    position: relative;
+    top: 5px;
+}
+.header-profile-btn ul li {
+    display: inline-block;
+}
+.header-profile-btn ul li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 18px;
+    padding: 10px;
+    color: #000;
+    line-height: 21px;
+    background: #e4e6eb;
+}
+/* ---- Header Hover ---- */
+
+.header-btn li:hover{
+    border-bottom: 2px solid #1877f2;
+}
+.header-btn li a:hover{
+    color: #1877f2;
+}
+.header-profile:hover{
+    background: #e4e6eb;
+    border-radius: 50px;
+    padding: 5px;
+    transition: .2s;
+}
+
+/* ----- Header END ----- */
+
+
+/* Left Side, Post, Story, Right Side */
+
+.sideBar-p{
+    font-size: 12.2px;
+    width: 80%;
+    margin: auto;
+}
+.left-side-bar{
+    left: -30px;
+}
+.left-side-bar ul{}
+.left-side-bar ul li{
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: .2s;
+}
+.left-side-bar ul li:hover{
+    background: #e4e6e9;
+    transition: .2s;
+}
+.left-side-bar ul li a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+}
+.left-side-profile-pic{
+    border-radius: 50%;
+    width: 10%;
+}
+.sideBar-icon-img{
+    margin-right: 5px;
+}
+.sideBar-icon-img img{
+    width: 12%;
+}
+.center-story{
+    justify-content: space-between;
+}
+.fb-story-create {
+    background: #fff;
+    width: 19%;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px #9c9c9c80;
+}
+.fb-story-create img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.fb-story-create-icon{
+    position: relative;
+    top: -20px;
+}
+.fb-story-create-icon span{
+    display: inline-block;
+    background: #166ada;
+    color: #fff;
+    font-size: 17px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    box-sizing: content-box;
+}
+.fb-story-create-text{
+    position: relative;
+    top: -10px;
+}
+.fb-story-create-text h6{
+    text-align: center;
+    font-size: 14px;
+}
+
+.fb-story-item{
+    background: #fff;
+    width: 19%;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px #9c9c9c80;
+    overflow: hidden;
+}
+.fb-story-item .profile{
+    top: 10px;
+    left: 10px;
+    z-index: 99;
+}
+.fb-story-item .profile img{
+    width: 35px;
+    border: 3px solid #166ada;
+    border-radius: 50%;
+}
+.fb-story-item img{
+    width: 160px;
+    transition: .5s;
+}
+.fb-story-item:hover img {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.fb-story-item .text {
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    z-index: 99;
+}
+.fb-story-item .text h6{
+    font-size: 12px;
+    color: #fff;
+}
+.story-right-arrow {
+    top: 85px;
+    right: -25px;
+}
+.story-right-arrow span {
+    font-size: 25px;
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 38px;
+    padding: 7px;
+    box-sizing: content-box;
+    color: #8c8d90;
+}
+.create-post{
+    margin: auto;
+    width: 90%;
+    padding: 10px 15px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0px 5px 40px #9c9c9c80;
+}
+.create-post-pro-pic{}
+.create-post-pro-pic img{
+    width: 7%;
+    border-radius: 50%;
+}
+.create-post-input{}
+.create-post-input input{
+    width: 90%;
+    border: none;
+    background: #f0f2f5;
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+.create-post ul {
+	margin-bottom: 0;
+	display: flex;
+}
+.create-post ul li{
+    display: inline-block;
+    border-radius: 8px;
+}
+.create-post ul li:hover{
+    background: #e4e6e9;
+    transition: .2s;
+}
+.create-post ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 7px 10px;
+}
+.create-post ul li a h6{
+    display: inline-block;
+    color: #65676b;
+}
+.create-post ul li a span{
+    color: #e73f5a;
+    font-size: 20px;
+}
+.create-room{
+    margin: auto;
+    width: 90%;
+    padding: 10px 15px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0px 5px 40px #9c9c9c80;
+    cursor: pointer;
+}
+.room{
+    border: 1px solid #e7f3ff;
+    display: inline-block;
+    padding: 8px 10px;
+    border-radius: 50px;
+    transition: .2s;
+}
+.room:hover{
+    background: #dddddd57;
+    transition: .2s;
+}
+.room span{
+    color: #7051b4;
+    font-weight: 600;
+}
+.create-room .profile-pic img{
+    width: 7%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.create-room .story-right-arrow {
+    top: 10px;
+    right: 40px;
+}
+.story-right-arrow span {
+    width: 28px;
+    height: 28px;
+    line-height: 30px;
+    box-shadow: 0 0 10px #8c8d9062;
+}
+.MainSection .col-md-3{
+    position: sticky;
+}
+
+.fb-post-item{
+    margin: auto;
+    width: 90%;
+    padding: 10px 15px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0px 5px 40px #9c9c9c80;
+    overflow: hidden;
+}
+.post-pro img{
+    border-radius: 50%;
+    width: 7%;
+}
+.post-pro-name{
+    position: relative;
+    top: -10px;
+}
+.post-pro-name span{
+    font-size: 13px;
+    position: relative;
+    left: 45px;
+    top: -10px;
+}
+.post-img{
+    width: 100%;
+    transform: scale(1.1);
+}
+.react-btn .col-md-4{
+    cursor: pointer;
+    position: relative;
+}
+.react-btn .col-md-4 span {}
+.react-btn .col-md-4 ul {
+    display: flex;
+    position: absolute;
+    top: -220%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    width: 320px;
+    transition: .5s;
+    background: #fff;
+    transform-origin: bottom center;
+    transform: scale(0);
+    z-index: 99;
+    padding: 0;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px #46464694;
+    overflow: hidden;
+}
+.react-btn .col-md-4:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transition: .5s;
+    transform: scale(1);
+}
+.react-btn .col-md-4 ul li{
+    margin-left: 0;
+}
+.react-btn .col-md-4 ul li a {
+    display: block;
+    font-size: 26px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    transition: .3s;
+}
+.react-btn .col-md-4 ul li a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+/* END */
